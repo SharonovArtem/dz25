@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading.Tasks;
+using System.Web;
+using static System.Net.WebRequestMethods;
+
+namespace jun1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string sentence = "алгоритмы сортировки чисел в массиве";
+            string[] words = sentence.Split(' ');
+
+            foreach (string word in words)
+            {
+                Console.WriteLine(word);
+            }
+        }
+    }
+}
