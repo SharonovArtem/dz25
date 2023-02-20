@@ -13,8 +13,9 @@ namespace jun1
     {
         static void Main(string[] args)
         {
+            char space = ' ';
             string sentence = "алгоритмы сортировки чисел в массиве";
-            string[] words = sentence.Split(' ');
+            string[] words = sentence.Split(space);
 
             foreach (string word in words)
             {
